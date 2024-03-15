@@ -23,7 +23,7 @@ function HomeHeader() {
                 <br /> <br />
               </div>
               <div className="col-lg-6 px-8 pl-lg-1 pb-5 pb-lg-6 about-img" style={{ flex: 1, marginLeft: 'auto', marginRight: -300 }}>
-                <img className="img-fluid w-50 rounded-circle shadow-sm" src="img/shanmu.png" alt="profile-image" />
+                <img className="img-fluid w-50 rounded-circle shadow-sm" src="https://i.ibb.co/gwTZd6m/Untitled-design.png" alt="profile-image" />
               </div>
             </div>
           </div>
