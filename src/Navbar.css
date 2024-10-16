@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 20px;
+    color: #ffffff;
+  }
+  
+  .btn-primary {
+    background-color: #457efa;
+    color: #ffffff;
+  }
+  
