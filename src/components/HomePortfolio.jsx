@@ -1,23 +1,30 @@
 // Navbar.js
-
 import React from 'react';
+import '../Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-brand fixed-top shadow-sm  navbar-expand-lg navbar-light bg-secondary navbar-light py-3 py-lg-0 px-lg-5">
-      <a href="index.html" className="navbar-brand ml-lg-3">
-        <h1 className="m-0 display-5"><span className="fst-italic fw-bolder" style={{ color: '#ffffff' }}>Shanmu</span></h1>
-      </a>
-      <div className="navbar-collapse px-lg-3">
-        <div className=" m-auto py-0">
-          <a href="https://www.instagram.com/shanmu_throttler?igsh=cm01ODdzZHRiYmpl" className="btn btn-secondary space-btn-insta" style={{ color: '#ffffff' }}>Instagram</a>
-          <a href="www.linkedin.com/in/bs5" className="btn btn-secondary space-btn-Linkedin" style={{ color: '#ffffff' }}>LinkedIn</a>
-          <a href="https://github.com/shanmu-ss" className="btn btn-secondary space-btn-Github" style={{ color: '#ffffff' }}>Github</a>
+    <nav className="navbar navbar-expand-lg navbar-light bg-secondary fixed-top shadow-sm">
+      <div className="container">
+        <a href="/" className="navbar-brand">
+          <h1 className="display-5 text-white">Shanmu</h1>
+        </a>
+        <div className="collapse navbar-collapse">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <a href="https://www.instagram.com/shanmu_throttler" className="nav-link text-white">Instagram</a>
+            </li>
+            <li className="nav-item">
+              <a href="https://www.linkedin.com/in/bs5" className="nav-link text-white">LinkedIn</a>
+            </li>
+            <li className="nav-item">
+              <a href="https://github.com/shanmu-ss" className="nav-link text-white">Github</a>
+            </li>
+          </ul>
         </div>
-        <a href="/add-employee" className="btn btn-menu d-none d-lg-block" style={{ backgroundColor: '#457efa', color: '#ffffff' }}>Reach out</a>
+        <a href="/add-employee" className="btn btn-primary">Reach Out</a>
       </div>
     </nav>
-    
   );
 };
 
