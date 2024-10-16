@@ -18,7 +18,7 @@ function HomeHeader() {
             <a href="doc/Resume.pdf" className="btn btn-secondary">Download Resume</a>
           </div>
           <div className="col-lg-5 text-center">
-            <img src="img/shanmu.png" className="img-fluid rounded-circle" alt="Profile" />
+            <img src="https://i.ibb.co/gwTZd6m/Untitled-design.png" className="img-fluid rounded-circle" alt="profile-image" />
           </div>
         </div>
       </div>
