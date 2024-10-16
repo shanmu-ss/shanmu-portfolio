@@ -15,10 +15,10 @@ function HomeHeader() {
             <p className="mt-3">
               Experienced Cloud Engineer with 2+ years in both professional and freelance settings. Dedicated to ongoing learning, I actively pursue skill improvement and stay current with the latest in Technology and DevOps.
             </p>
-            <a href="https://www.canva.com/design/DAFxI7GaMrM/C9Yvk4KLhe2ThyG6EiG-dw/view" className="btn btn-secondary">Download Resume</a>
+            <a href="https://www.canva.com/design/DAFxI7GaMrM/C9Yvk4KLhe2ThyG6EiG-dw/view" className="btn btn-secondary">View Resume</a>
           </div>
           <div className="col-lg-5 text-center">
-            <img src="img/shanmu.png" className="img-fluid rounded-circle" alt="Profile" />
+          <img src="https://i.ibb.co/gwTZd6m/Untitled-design.png" className="img-fluid rounded-circle" alt="profile-image" />
             
           </div>
         </div>
