@@ -31,10 +31,10 @@ const CertificationSlider = () => {
   };
 
   const certifications = [
-    { id: 1, name: 'Certification 1', image: 'img/associate-cloud-engineer-certification.png' },
-    { id: 2, name: 'Certification 2', image: 'img/associate-cloud-engineer-certification.png' },
-    { id: 3, name: 'Certification 3', image: 'img/associate-cloud-engineer-certification.png' },
-    { id: 3, name: 'Certification 4', image: 'img/associate-cloud-engineer-certification.png' },
+    { id: 1, name: 'Google Cloud', image: 'img/associate-cloud-engineer-certification.png' },
+    { id: 2, name: 'Azure Certified', image: 'img/microsoft-certified-azure-fundamentals.png' },
+    { id: 3, name: 'AWS Certified', image: 'img/aws-certified-developer-associate.png' },
+    { id: 3, name: 'Google Cloud', image: 'img/professional-cloud-devops-engineer-certification.png' },
     // Add more certifications and badges here
   ];
 
