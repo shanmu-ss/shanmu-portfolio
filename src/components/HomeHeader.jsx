@@ -2,6 +2,7 @@
 import React from 'react';
 import '../Portfolio.css';
 import HomePortfolio from '../components/HomePortfolio';
+import CertificationSlider from '../components/CertificationSlider';
 
 function HomeHeader() {
   return (
@@ -18,11 +19,15 @@ function HomeHeader() {
             <a href="https://www.canva.com/design/DAFxI7GaMrM/C9Yvk4KLhe2ThyG6EiG-dw/view" className="btn btn-secondary">View Resume</a>
           </div>
           <div className="col-lg-5 text-center">
-          <img src="https://i.ibb.co/gwTZd6m/Untitled-design.png" className="img-fluid rounded-circle" alt="profile-image" />
-            
+          <img src="https://i.ibb.co/gwTZd6m/Untitled-design.png" className="img-fluid rounded-circle" alt="profile-image" />  
+          </div>
+          <h1 className="mt-2 highlight" style={{ textAlign: 'center',  }} > Badges</h1>
+          <div className="mt-3" >
+            <CertificationSlider />
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
