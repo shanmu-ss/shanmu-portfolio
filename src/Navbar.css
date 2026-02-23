@@ -1,58 +1,80 @@
 .navbar {
-  background-color: #2c3e50;
+  background-color: rgba(13, 17, 23, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #30363d;
 }
 
-.navbar-brand h1 {
-  font-family: 'Arial', sans-serif;
-  font-size: 1.5rem;
+.navbar-brand-text {
+  font-family: "Kode Mono", monospace;
+  font-size: 1.3rem;
+  font-weight: bold;
   color: #ffffff;
-  margin: 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.navbar-brand-text span {
+  color: #00d4ff;
 }
 
 .nav-link {
-  font-family: 'Arial', sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  color: #ffffff;
-  text-decoration: underline;
-  margin-right: 20px;
+  font-family: "Kode Mono", monospace;
+  font-size: 0.9rem;
+  color: #8b949e !important;
+  text-decoration: none;
+  margin-right: 24px;
+  transition: color 0.2s ease;
   display: inline-flex;
   align-items: center;
   position: relative;
 }
 
-.nav-link::after {
-  content: '→';
-  margin-left: 5px;
-  font-size: 1rem;
-  transition: transform 0.3s ease;
+.nav-link:hover {
+  color: #00d4ff !important;
 }
 
-.nav-link:hover::after {
-  transform: translateX(5px);
+.nav-link::after {
+  content: none;
 }
 
 .btn-primary {
-  background-color: #808080; /* Grey background */
-  color: #ffffff;
-  font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+  background: linear-gradient(135deg, #00d4ff, #00ff88) !important;
+  color: #0d1117 !important;
+  font-family: "Kode Mono", monospace;
   font-weight: bold;
-  font-style: italic;
-  text-transform: none;
+  border: none !important;
+  padding: 8px 20px;
+  border-radius: 6px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.home-portfolio-link {
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.navbar-toggler-dark {
+  border-color: #30363d;
+}
+
+.navbar-toggler-icon-dark {
+  filter: invert(1);
+}
+
+
   font-weight: bold;
   font-style: italic;
   text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-  .navbar-brand h1 {
-    font-size: 1.2rem;
+  .navbar-brand-text {
+    font-size: 1.1rem;
   }
 
   .nav-link {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    margin-right: 0;
   }
 }
+

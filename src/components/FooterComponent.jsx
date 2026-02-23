@@ -1,15 +1,16 @@
 // FooterComponent.js
-import React from 'react';
-import '../Footer.css'; // Import the CSS file
+import '../Footer.css';
 
 const FooterComponent = () => {
   return (
-    <div>
-      <footer className="footer">
-        <span>All rights reserved 2024 by Shan</span>
-      </footer>
-    </div>
+    <footer className="footer">
+      <span>
+        &lt;/<span className="footer-brand">Shanmu</span>&gt; &nbsp;·&nbsp; Cloud &amp; DevOps Engineer &nbsp;·&nbsp;
+        Built with React &amp; ☁️ &nbsp;·&nbsp; © {new Date().getFullYear()}
+      </span>
+    </footer>
   );
 };
 
 export default FooterComponent;
+
