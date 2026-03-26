@@ -123,7 +123,7 @@ function HomeHeader() {
             <div className="col-lg-5 text-center mt-5 mt-lg-0">
               <div className="profile-img-wrapper">
                 <img
-                  src="https://graph.microsoft.com/v1.0/shares/dSFodHRwczovLzFkcnYubXMvaS9jL2YyODMxN2I2MzUxMWQxZDUvSVFDMW9uTHhNVDd6UjRwZmlFeGFzUjdpQWRicWZsaUZ2SE8zTXFXeDdBRGpHdDg/driveItem/content"
+                  src="/shanmu.png"
                   alt="Shanmu – Cloud & DevOps Engineer"
                 />
               </div>
