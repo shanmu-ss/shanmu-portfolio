@@ -123,7 +123,7 @@ function HomeHeader() {
             <div className="col-lg-5 text-center mt-5 mt-lg-0">
               <div className="profile-img-wrapper">
                 <img
-                  src="https://i.ibb.co/gwTZd6m/Untitled-design.png"
+                  src="/shanmu.png"
                   alt="Shanmu – Cloud & DevOps Engineer"
                 />
               </div>
